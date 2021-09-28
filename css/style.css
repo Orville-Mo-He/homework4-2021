@@ -95,7 +95,7 @@ table {
 .colhead {
   color: #FFFFFF;
   background-color: #7e0825;
-  text-transform: capitalize;
+  text-transform: uppercase;
   min-width: 125px;
   padding: 10px;
   text-align: center;
