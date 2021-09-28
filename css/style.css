@@ -8,16 +8,12 @@ Make sure to learn what the starter code does!!
 */
 
 /*STARTER CODE - DO NOT CHANGE*/
-
-
-
-
-main {
+main{
   margin-bottom: 100px;
 }
 
-caption {
-  margin: 5px 0px;
+caption{
+  margin:5px 0px;
 }
 
 /* If you decide to uncomment this code, comment it back for the Autograder. */
@@ -32,6 +28,7 @@ body {
   margin: 1.2em;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   background-color: #DDDDDD;
   background-image: url(../images/pigeon-background.JPEG);
   color: #000000;
@@ -43,7 +40,7 @@ body {
 h1 {
   color: #c12258;
   font-size: 2em;
-  line-height: 4em;
+  line-height: 2;
   text-align: center;
   /*Req 2*/
 }
@@ -98,9 +95,11 @@ table {
 .colhead {
   color: #FFFFFF;
   background-color: #7e0825;
+  text-transform: capitalize;
   min-width: 125px;
   padding: 10px;
   text-align: center;
+  vertical-align: middle;
 }
 
 
